@@ -1,0 +1,22 @@
+.{
+    .name = "boringssl",
+    // master: 7c2b62e93487b772990fddc1905f22d4cfaee4a4
+    .version = "0.0.1",
+
+    .dependencies = .{},
+
+    .paths = .{
+        "LICENSING",
+        "README.md",
+        "build.zig",
+        "build.zig.zon",
+        "pki",
+        "tool",
+        "ssl",
+        "crypto",
+        "third_party",
+        "decrepit",
+        "gen",
+        "include",
+    },
+}

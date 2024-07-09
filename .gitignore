@@ -36,3 +36,7 @@
 
 # Ignore target under any directory.
 target/
+
+# zig stuff
+.zig-cache/
+zig-out/
